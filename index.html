@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+    <script async type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
+    <style>
+      zapier-interfaces-chatbot-embed {
+         position: fixed;
+         bottom: 20px;
+         right: 20px;
+         z-index: 9999;
+      }
+   </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <zapier-interfaces-chatbot-embed is-popup='true' chatbot-id='cm706fhi3004c10bpo1clepep'></zapier-interfaces-chatbot-embed>
+  </body>
+</html>
